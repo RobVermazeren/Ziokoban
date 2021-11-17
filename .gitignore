@@ -1,0 +1,31 @@
+### worksheets
+*.sc
+
+#### scala ####
+*.class
+*.log
+
+## sbt
+.cache
+.history
+.lib/
+dist/*
+target/
+project/target/
+lib_managed/
+src_managed/
+
+### bloop
+.bloop/
+.bsp/
+
+### VSCode / metals
+.metals/
+.vscode/
+metals.sbt
+
+### IntelliJ
+.idea/
+
+### This project
+levels/*
